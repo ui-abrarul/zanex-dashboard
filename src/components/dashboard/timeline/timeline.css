@@ -1,0 +1,35 @@
+
+.timeline__info {
+  min-height: 70px;
+  position: relative;
+}
+.timeline__info:before {
+  content: "";
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  left: 23px;
+  border-left: 1px solid #e0e9f1;
+}
+.timeline__details {
+  margin-left: 15px;
+  width: 80%;
+  margin-top: 6px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.timeline__img {
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.t-date {
+  padding-top: 3px;
+}
+.timeline__info:last-child:before{
+  display: none;
+}

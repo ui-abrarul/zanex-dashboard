@@ -1,0 +1,21 @@
+.sales__card {
+    justify-content: space-between;
+    padding: 25px;
+}
+.sales__date {
+    font-size: 14px;
+}
+
+.sales__data {
+    padding: 10px 0;
+}
+
+.sales__icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}

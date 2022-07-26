@@ -1,0 +1,22 @@
+.browser__info {
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+}
+.browser__img {
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.browser__name {
+    align-items: center;
+    gap: 10px;
+}
+.browser__hike {
+    margin-left: 10px;
+}
+.browser__hike span svg {
+    margin-right: 10px;
+}

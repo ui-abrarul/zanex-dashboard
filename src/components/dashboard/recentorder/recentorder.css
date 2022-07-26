@@ -1,0 +1,14 @@
+.transaction__orders {
+    background-color: var(--white);
+    margin-left: 20.5px;
+}
+.transaction__info p {
+    font-size: 14px;
+}
+.transaction__info {
+    justify-content: space-between;
+    text-align: center;
+}
+.transaction__info h3 {
+    padding: 4px 0 5px;
+}

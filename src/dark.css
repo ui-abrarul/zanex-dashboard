@@ -1,0 +1,88 @@
+.App.dark
+{
+  color: #dedefd;
+  background-color: #22223d;
+}
+
+
+.App.dark .sidebar,
+.App.dark .sales__card,
+.App.dark .card,
+.App.dark .transaction__total,
+.App.dark .transaction__orders,
+.App.dark .navbar,
+.App.dark .sidebar__header
+{
+  color: #dedefd;
+  background-color: #30304d;
+}
+
+
+
+.App.dark .sidebar__link,
+.App.dark .sidebar__icon,
+.App.dark .sidebar__subitem
+{
+  color: #dedefd;
+}
+
+.App.dark  .navbar__right a,
+.App.dark .toggle
+{
+  color: #fff;
+}
+
+.App.dark tspan {
+  fill: #77778e !important;
+}
+
+.App.dark .apexcharts-legend-text {
+  color: #dedefd !important;
+}
+
+.App.dark .apexcharts-canvas  text {
+  fill: #fff;
+}
+.App.dark .apexcharts-radialbar-track.apexcharts-track path {
+  stroke: #21203a;
+}
+
+.App.dark .rdt_TableHeadRow,
+.App.dark .rdt_TableRow
+{
+  background-color: #30304d;
+  color: #dedefd !important;
+}
+
+.App.dark .card__header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.App.dark .timeline__info:before, .App.dark .activity__info:before {
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.App.dark .sidebar__header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+}
+.App.dark  .sidebar{
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+}
+.App.dark .navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.App.dark .rdt_TableCol, .App.dark .rdt_TableCell{
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+}
+.App.dark .rdt_TableRow {
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.App.dark .rdt_TableHeadRow {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.App.dark .rdt_TableRow:hover {
+  outline: none;
+}
